@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sara Beauty Parlour : Skin Services</title>
+    <style>
+        *
+        {
+            background-color: black;
+        }
+        .head
+        {
+            color: azure;
+            text-align: center;
+        }
+        .navbar,.navbar1
+        {
+            margin:5px 5px 10px 30%;
+            font-size: 20px; 
+        }
+        .nav
+        {
+            color:grey;
+            text-decoration: none; 
+            text-align: center;
+            padding:0 0 0 15px ;
+        }
+        .nav:hover
+        {
+            color:darkslategrey;
+            background-color:darkgrey ;
+            border-radius: 5px;
+        }
+        .nav:active
+        {
+            color: cornflowerblue;
+        }
+        .main-block
+        {
+             display: flex;
+             flex-wrap: wrap;
+             margin: 30px 50px 30px 50px;
+             gap: 20px;   
+             justify-content: space-around;     
+        }
+       .cards
+       {
+        background-color: whitesmoke;
+        width:350px;
+        height:500px;
+        border: 3px solid white;
+        border-radius: 5px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        
+       }
+
+
+
+
+       .text
+       {
+        
+        background-color: unset;
+        margin: 0 5px 0 5px ;
+       
+       }
+       .content
+       {
+        color: azure;
+        font-size: larger;
+        font-style: italic;
+        text-transform: capitalize;
+        text-align: center;
+       }
+
+
+
+       @media screen and (max-width : 480px)
+       {
+        .main-container,.footer,.header,.navbar,.main-block,.head
+        {
+            height: 90%;
+            width : 90%;
+            margin: 10px 10px 0 20px;
+        }
+       
+       }
+    </style>
+</head>
+<body>
+    <div class="main-container">
+        <div class="header">
+            <h1 class="head">Sara Beauty Parlour : Skin Services</h1>
+            <hr>
+        </div>
+        <div class="navbar">     
+          
+            <a class="nav" href="index.html"                                  target="_self"    style="text-decoration: none; ">   Home       </a>
+            <a class="nav" href="about.html"                                  target="_self"    style="text-decoration: none; ">   About Us   </a>
+            <a class="nav" href="contact.html"                                target="_self"    style="text-decoration: none; ">   Contact Us </a>
+            <a class="nav" href="services.html"                               target="_self"    style="text-decoration: none; ">   Services   </a>
+            <a class="nav" href="https://maps.app.goo.gl/eDjsR3tzar92JDRv6"   target="_blank"   style="text-decoration: none; ">   Direction  </a>
+            <a class="nav" href="https://www.instagram.com/sara_beauty_tn59/" target="_blank"   style="text-decoration: none; ">   Instagram  </a>
+           
+        </div>
+        <div>
+            <hr>
+        </div>
+        <div class="main-block">
+            <div class="cards">
+                 <img  src="./Parlour-Images/skin-clean-ups.png" alt="Clean-Up" style=" width:350px ; height: 300px; border-radius: 5px;">
+                 <div class="text">
+                 <h2 class="card-head"   style="text-transform: uppercase ; text-align: center;      text-decoration: underline;  background-color: unset;  color:#074C81 ;  " >Clean-Up</h4>
+                 <h5 class="card-des"    style="text-transform: capitalize;    text-align: justify;                          background-color: unset;                     ">a rejuvenating treatment to unveil your natural glow and leave your skin feeling refreshed and renewed.</h5>
+                 <h3 class="card-price"  style="text-transform: uppercase ;      text-align: center;     color: #1E0D62;                 background-color: unset;   font-size:x-large;                  ">Price : 500 </h3>     
+                </div>
+            </div>
+            <div class="cards">
+                <img  src="./Parlour-Images/skin-fruit-facial.webp" alt="Fruit Facial" style=" width:350px ; height: 300px; border-radius: 5px;">
+                <div class="text">
+                <h2 class="card-head"   style="text-transform: uppercase ; text-align: center;     text-decoration: underline;  background-color: unset;  color:#074C81 ;  " >Fruit Facial</h4>
+                <h5 class="card-des"    style="text-transform: capitalize;      text-align: justify;                        background-color: unset;                     ">Fruit facial is a skincare treatment using a blend of natural fruit extracts and nourish the skin, promoting a healthy and glowing complexion.</h5>
+                <h3 class="card-price"  style="text-transform: uppercase ;      text-align: center;     color: #1E0D62;                 background-color: unset;   font-size:x-large;                  ">Price : 700 </h3>     
+                </div>
+            </div>
+            <div class="cards">
+                <img  src="./Parlour-Images/skin-charcoal-facial.jpg" alt="Charcoal Facial" style=" width:350px ; height: 300px; border-radius: 5px;">
+                <div class="text">
+                <h2 class="card-head"   style="text-transform: uppercase ; text-align: center;     text-decoration: underline;  background-color: unset;  color:#074C81 ;  " >Charcoal Facial</h4>
+                <h5 class="card-des"    style="text-transform: capitalize;      text-align: justify;                        background-color: unset;                     ">Charcoal facial involves the use of activated charcoal-based products to cleanse, detoxify, and purify the skin, leaving it refreshed and revitalized."</h5>
+                <h3 class="card-price"  style="text-transform: uppercase ;      text-align: center;     color: #1E0D62;                 background-color: unset;   font-size:x-large;                  ">Price : 1200 </h3>     
+                </div>
+            </div>
+           
+            <div class="cards">
+                <img  src="./Parlour-Images/skin-pearl-facial.jpg" alt="Pearl Facial" style=" width:350px ; height: 300px; border-radius: 5px;">
+                <div class="text">
+                <h2 class="card-head"   style="text-transform: uppercase ; text-align: center;     text-decoration: underline;  background-color: unset;  color:#074C81 ;  " >Pearl Facial</h4>
+                <h5 class="card-des"    style="text-transform: capitalize;      text-align: justify;                        background-color: unset;                     ">Pearl facial is a skincare treatment using crushed pearls or pearl powder to brighten, even out skin tone, and provide a luminous glow, enhancing skin radiance.</h5>
+                <h3 class="card-price"  style="text-transform: uppercase ;      text-align: center;     color: #1E0D62;                 background-color: unset;   font-size:x-large;                  ">Price : 1600 </h3>     
+                </div>
+            </div>
+
+            <div class="cards">
+                <img  src="./Parlour-Images/skin-silver-facial.webp" alt="Silver Facial" style=" width:350px ; height: 300px; border-radius: 5px;">
+                <div class="text">
+                <h2 class="card-head"   style="text-transform: uppercase ; text-align: center;     text-decoration: underline;  background-color: unset;  color:#074C81 ;  " >Silver Facial</h4>
+                <h5 class="card-des"    style="text-transform: capitalize;      text-align: justify;                        background-color: unset;                     "> Silver facial involves the application of silver-infused skincare products to purify, soothe, and promote a radiant complexion, offering antimicrobial benefits for healthier skin.</h5>
+                <h3 class="card-price"  style="text-transform: uppercase ;      text-align: center;     color: #1E0D62;                 background-color: unset;   font-size:x-large;                  ">Price : 2300 </h3>     
+                </div>
+            </div>
+            
+            <div class="cards">
+                <img  src="./Parlour-Images/skin-Gold-Facial.jpg" alt="Gold Facial" style=" width:350px ; height: 300px; border-radius: 5px;">
+                <div class="text">
+                <h2 class="card-head"   style="text-transform: uppercase ; text-align: center;     text-decoration: underline;  background-color: unset;  color:#074C81 ;  " >Gold Facial</h4>
+                <h5 class="card-des"    style="text-transform: capitalize;      text-align: justify;                        background-color: unset;                     ">Gold facial is a luxurious skincare treatment that utilizes gold-infused products to promote skin elasticity, radiance.</h5>
+                <h3 class="card-price"  style="text-transform: uppercase ;      text-align: center;     color: #1E0D62;                 background-color: unset;   font-size:x-large;                  ">Price : 2600 </h3>     
+                </div>
+            </div>
+        </div>
+        <div>
+            <hr>
+        </div>   
+        <div class="navbar1">     
+          
+            <a class="nav" href="skin.html"       target="_self"    style="text-decoration: none; ">   Skin Care    </a>
+            <a class="nav" href="hair.html"       target="_self"    style="text-decoration: none; ">   Hair Care    </a>
+            <a class="nav" href="nail.html"       target="_self"    style="text-decoration: none; ">   Nail Service </a>
+            <a class="nav" href="makeup.html"     target="_self"    style="text-decoration: none; ">   Make-Up      </a>
+            <a class="nav" href="mehandhi.html"   target="_self"    style="text-decoration: none; ">   Mehandhi     </a>
+            
+           
+        </div>
+        <div>
+            <hr>
+        </div>
+        <div class="footer">
+            <div class="content">Contact us to schedule your beauty experience with our skilled team. 
+                <br>
+                Phone: 9125364565
+                <br>
+                Mail :  sarabeautyparlour@gmail.com
+                <br>
+                Location : Mattuthavani, Ganesh Complex, No.4, 2nd floor, 120 Feet Rd, Surveyor Colony, K.Pudur, Tamil Nadu 625007.
+            </div>
+            
+        </div>
+        </div>
+    </div>
+</body>
+</html>
